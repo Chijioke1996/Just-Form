@@ -93,6 +93,12 @@ button {
     .container {
         border: none;
     }
+
+    button {
+        height: 40px;
+        width: 300px;
+       
+    }
     
 }
 
