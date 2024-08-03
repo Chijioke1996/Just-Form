@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #05608e;
+    background-blend-mode: multiply;
+    background: rgb(5, 96, 142);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    height: 500px;
+    width: 340px;
+    position: relative;
+    border: 2px solid #fff;
+    border-radius: 12px;
+}
+
+.roadmap {
+    color: #fffcf1;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.heading {
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.text {
+    color: #fffcf1;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+
+input {
+    height: 30px;
+    width: 300px;
+    margin: 10px 20px;
+    padding-left: 12px;
+    color: #fff;
+    border: 1px solid #fffcf1;
+    border-bottom-style: solid;
+    border-right-style: none;
+    border-left-style: none;
+    border-top-style: none;
+    background: rgb(5, 96, 142);
+
+}
+
+/* Turns off the rectangular box when input box is clicked */
+input:focus {
+    outline: none;
+}
+
+button {
+    height: 35px;
+    width: 300px;
+    margin: 10px 20px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    cursor: pointer;
+    background: #d68d2d;
+    color: #fff;
+    border: none;
+
+}
+
+.last-paragraph {
+    color: #fffcf1;
+    margin: 10px 20px;
+    font-size: small;
+
+}
